@@ -1,6 +1,6 @@
 # Summary of the Human Activity Recognition Using Smartphones Dataset [1]
 
-This project summarises the dataset from the Human Activity Recognition Using Smartphones study [1]. Only the mean value and standard deviation of the measurements taken in the study are included. Each of these are averaged against each subject and activity pair to product a tidy dataset.
+This project summarises the dataset from the Human Activity Recognition Using Smartphones study [1]. Only the mean value and standard deviation of the measurements taken in the study are included. Each of these is averaged against each subject and activity pair to produce a tidy dataset.
 
 ## Files
 
