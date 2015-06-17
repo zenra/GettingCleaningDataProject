@@ -1,10 +1,10 @@
 # Codebook
 
-This project summarises the dataset from the Human Activity Recognition Using Smartphones study `[1`] `(the Study`). This code book describes the methodology used for the summarisation and the output variables.
+This project summarises the dataset from the Human Activity Recognition Using Smartphones study \[1\] \(the Study\). This code book describes the methodology used for the summarisation and the output variables.
 
 ## Raw Dataset
 
-The Study's experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING`_UPSTAIRS, WALKING`_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. The experiments were video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+The Study's experiments were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz were captured. The experiments were video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
@@ -19,7 +19,7 @@ Only the mean value and standard deviation of the measurements taken in the Stud
 ## Summary Dataset
 
 * **Subject**: the id of each human subject in the Study
-* **Activity**: the activity associated with the observation. It is always one of these: WALKING, WALKING`_UPSTAIRS, WALKING`_DOWNSTAIRS, SITTING, STANDING, LAYING
+* **Activity**: the activity associated with the observation. It is always one of these: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING
 * All the variables below are averages of the original measurements. Prefix 't' denotes time domain signals, 'f' frequency domain signals. Phrase 'mean' denotes an original mean value, 'std' an original standard deviation. '.XYZ' denotes 3-axial signals in X, Y and Z directions.
    * **tBodyAcc.mean.X**
    * **tBodyAcc.mean.Y**
