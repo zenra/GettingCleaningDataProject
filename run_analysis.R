@@ -46,7 +46,8 @@ run_analysis <- function () {
     }
     library(dplyr)
     
-    ## Read the feature names and resolve duplications in bandEnergy() labels
+    ## Read the feature names, cleaning up special characters
+    ## and resolve duplications in bandEnergy() labels
     featurenames <- fread(datasetfeaturenames)
     featurenames[, V2:=gsub('-', '.', V2)]
     featurenames[, V2:=gsub('\\(\\)', '', V2)]
